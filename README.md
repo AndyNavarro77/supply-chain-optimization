@@ -58,7 +58,7 @@ A three-component analytics system that transforms raw transactional data into a
 
 ![Dashboard](img/dashboard_supply_chain.png)
 
-**[→ View live on Tableau Public](https://public.tableau.com/app/profile/andres.navarro77)**
+**[→ View live on Tableau Public](https://public.tableau.com/app/profile/andr.s.navarro1175/viz/supply_chain_dashboard_17810372918960/Dashboard1)**
 
 ---
 
@@ -233,7 +233,7 @@ Real commercial supply chain data with 180K+ orders, 53 features covering orders
 
 [![GitHub](https://img.shields.io/badge/GitHub-AndyNavarro77-black?logo=github)](https://github.com/AndyNavarro77)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/andrés-navarro77/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-orange?logo=netlify)](https://andres-navarro-portfolio.netlify.app)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-orange?logo=netlify)](https://andres-navarro-portafolio.netlify.app)
 
 ---
 

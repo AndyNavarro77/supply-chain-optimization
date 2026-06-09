@@ -58,7 +58,7 @@ Un sistema analítico de tres componentes que transforma datos transaccionales b
 
 ![Dashboard](img/dashboard_supply_chain.png)
 
-**[→ Ver en Tableau Public](https://public.tableau.com/app/profile/andres.navarro77)**
+**[→ Ver en Tableau Public](https://public.tableau.com/app/profile/andr.s.navarro1175/viz/supply_chain_dashboard_17810372918960/Dashboard1)**
 
 ---
 
@@ -233,7 +233,7 @@ Datos reales de supply chain con 180K+ órdenes, 53 variables cubriendo órdenes
 
 [![GitHub](https://img.shields.io/badge/GitHub-AndyNavarro77-black?logo=github)](https://github.com/AndyNavarro77)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-blue?logo=linkedin)](https://www.linkedin.com/in/andrés-navarro77/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visitar-orange?logo=netlify)](https://andres-navarro-portfolio.netlify.app)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visitar-orange?logo=netlify)](https://andres-navarro-portafolio.netlify.app)
 
 ---
 
