@@ -7,6 +7,7 @@
 ![XGBoost](https://img.shields.io/badge/XGBoost-2.0-red)
 ![Prophet](https://img.shields.io/badge/Prophet-Forecasting-blue)
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-orange?logo=mysql)
+![Tableau](https://img.shields.io/badge/Tableau-Dashboard-blue?logo=tableau)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 
 ---
@@ -42,12 +43,23 @@ A three-component analytics system that transforms raw transactional data into a
 │   5 global markets      │    │   RF · XGBoost         │    │   results · metrics │
 │   53 features           │    │   Prophet · Stats      │    │   summaries         │
 └─────────────────────────┘    └────────────────────────┘    └──────────┬──────────┘
-│
-┌────────────────▼────────────────┐
-│        Power BI Dashboard        │
-│   Operations · Risk · Forecast   │
-└─────────────────────────────────┘
+                                                                         │
+                                              ┌──────────────────────────▼──────────────────────┐
+                                              │            Tableau Dashboard                     │
+                                              │   KPIs · Late Delivery · Profitability · Forecast│
+                                              └─────────────────────────────────────────────────┘
 ```
+
+---
+
+## 📊 Interactive Dashboard
+
+> Built in Tableau Public — KPIs, late delivery analysis, profitability by category and market, and demand forecast in a single executive view.
+
+![Dashboard](img/dashboard_supply_chain.png)
+
+**[→ View live on Tableau Public](https://public.tableau.com/app/profile/andres.navarro77)**
+
 ---
 
 ## 🔄 Pipeline — Step by Step
@@ -170,6 +182,7 @@ A three-component analytics system that transforms raw transactional data into a
 | Statistical Analysis | scipy · numpy | Inventory optimization calculations |
 | Database | MySQL · SQLAlchemy | 12-table production data model |
 | Visualization | matplotlib · seaborn | Analysis charts · model evaluation |
+| Dashboard | Tableau Public | Interactive executive dashboard |
 
 ---
 
@@ -183,16 +196,19 @@ supply-chain-optimization/
 │   ├── 02_delivery_risk_prediction.ipynb         # RF · XGBoost · threshold optimization
 │   ├── 03_profitability_analysis.ipynb           # Margin · losses · category matrix
 │   └── 04_demand_forecasting.ipynb               # Prophet · safety stock · reorder point
+├── dashboard/
+│   └── supply_chain_dashboard.twb                # Tableau workbook
 ├── scripts/
 │   └── load_to_mysql.py                          # ETL: results → MySQL (12 tables)
 ├── data/
 │   └── processed/                                # Pipeline artifacts (not tracked)
-├── img/                                          # Visualization exports (11 charts)
+├── img/                                          # Visualization exports (11 charts + dashboard)
 ├── .env.example
 ├── .gitignore
 ├── requirements.txt
 └── README_ES.md
 ```
+
 ---
 
 ## 📊 Dataset
